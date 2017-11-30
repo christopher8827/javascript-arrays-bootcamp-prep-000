@@ -40,8 +40,8 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-  array.slice(1)
-  return array
+  var arr2 = array.slice(1)
+  return arr2
 }
 
 
@@ -50,7 +50,7 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   return array
 }
 
-function removeElementFromEndOfArray {
+function removeElementFromEndOfArray(array) {
   array.pop()
   return array
 }
